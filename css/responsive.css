@@ -56,11 +56,30 @@
         height: 70px;
     }
     .diff_brand_item {
-        width: 150px;
+        width: 120px;
     }
     .brand_large_img {
-        height: inherit;
+        height: 356px;
         width: 100%;
+    }
+    .brand_right_img {
+        width: 176px;
+        height: inherit;
+        cursor: pointer;
+        position: relative;
+    }
+    .brand_large_img::before {
+        left: -54%;
+        font-size: 14px;
+    }
+    .brand_right_img .sale span {
+        padding: 6px 12px;
+        background-color: #000;
+        color: #fff;
+        font-size: 10px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all linear 0.3s;
     }
 }
 

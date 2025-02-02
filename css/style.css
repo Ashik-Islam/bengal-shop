@@ -67,7 +67,9 @@ body {
     font-weight: 300;
     color: #000;
 }
-
+span{
+    font-family: "Roboto", serif;
+}
 h1,
 h2,
 h3,
@@ -187,6 +189,9 @@ header.header_area .container{
 .search {
     width: 20px;
     height: 19px;
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 .search svg{
     font-size: 20px;
@@ -310,6 +315,9 @@ header.header_area .container{
     color: #fff;
     border-radius: 2px;
 }
+.hero_left a:hover {
+    color: rgb(255, 195, 195);
+}
 .hero_left a svg{
     margin-right: 3px;
 }
@@ -364,6 +372,24 @@ header.header_area .container{
 .brand_large_img img {
     width: 100%;
     height: 100%;
+}
+.brand_right_img .sale {
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+.brand_right_img .sale span{
+    padding: 8px 15px;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+.brand_right_img:hover .sale span{
+    visibility: visible;
+    opacity: 1;
 }
 .brand_large_img::before {
     position: absolute;
