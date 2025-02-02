@@ -4,495 +4,69 @@
 // Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 320px) and (max-width:575px) {
-    .nav_area {
-        display: none;
-    }
-
-    .mobile_menu {
-        display: block;
-    }
-
-    .nav_area {
-        width: 100%;
-    }
-
-    section.hero_area {
-        background: #080808;
-        padding: 60px 0px 40px;
-    }
-
-    .hero_left {
-        padding: 37px 0 0;
-    }
-
-    .hero_left h1 {
-        font-size: 32px;
-    }
-
-    .heading_text {
-        font-size: 25px;
-    }
-
-    .hero_left p {
-        padding: 0;
-        font-size: 12px;
-    }
-
-    .hero_left a {
-        padding: 10px 15px;
-        font-size: 12px;
-    }
-
-    .hero_right {
-        margin-top: 50px;
-    }
-
-    .hero_right .hero_img {
-        width: 450px;
-        height: inherit;
-    }
-
-    .hero_right img {
-        border-radius: 5px;
-    }
-
-    .hero_right img {
-        border: 0;
-        box-shadow: none;
-    }
-
-    .hero_bottom .my_clients .company {
-        width: 140px;
-    }
-
-    /* work area */
-    .work_left h6.com_title {
-        font-size: 11px;
-    }
-
-    h2 {
-        font-size: 29px;
-    }
-
-    .work_top p {
-        padding: 0;
-        font-size: 12px;
-    }
-
-    h3 {
-        font-size: 20px;
-    }
-
-    .work_left p {
-        font-size: 12px;
-    }
-
-    .work_left a {
-        padding: 7px 15px;
-        font-size: 14px;
-    }
-
-    .work_right {
-        margin-top: 30px;
-    }
-
-    .work_right .work_img {
-        margin: 0;
-    }
-
-    .work_place .custom_row {
-        flex-direction: column-reverse;
-    }
-
-    .work_left {
-        margin-top: 20px;
-    }
-
-    .work_left p {
-        margin-bottom: 15px;
-    }
-
-    /* work area */
-
-    /* testi area */
-    .testimonial_area {
-        background: #080808;
-        padding: 60px 0 20px;
-    }
-
-    .testi_top p {
-        padding: 10px 0;
-        font-size: 12px;
-    }
-
-    .testi_body {
-        width: 267px;
-        height: 176px;
-        padding: 20px 10px;
-    }
-
-    .testi_body p {
-        line-height: 17px;
-        font-size: 12px;
-    }
-
-    .testi_person {
-        margin-top: 17px;
-        display: flex;
-    }
-
-    .testi_img {
-        width: 50px;
-        height: auto;
-    }
-
-    .testi_person span {
-        color: #fff;
-        font-weight: 600;
-        align-self: center;
-        margin-left: 25px;
-        font-size: 11px;
-    }
-
-    /* testi area */
-    /* recent work area */
-    .re_slider.owl-carousel .owl-nav.disabled {
-        display: none;
-    }
-
-    section.recent_work {
-        padding: 90px 0 20px;
-    }
-
-    .recent_work_body {
-        margin-top: 30px;
-    }
-
-    .recent_work_top p {
-        padding: 10px 0;
-        font-size: 12px;
-    }
-
-    .re_work_img {
-        width: 100%;
-        height: auto;
-    }
-
-    .re_work_cont p {
-        padding-right: 0px;
-        font-size: 12px;
-    }
-
-    .re_work_cont a.slider_btn {
-        font-size: 12px;
-    }
-
-    .re_work_cont a.slider_btn svg {
-        font-size: 10px;
-    }
-
-    /* recent work area */
-
-    /* my skill chart area */
-    .skill_chart_top p {
-        padding: 20px 0px;
-        font-size: 12px;
-    }
-    .skill_chart_cont .progress-title {
-        font-size: 13px;
-    }
-    /* my skill chart area */
-
-
-
-    /* footer area */
-    section.form_area {
-        background: #080808;
-        padding: 90px 0 60px;
-    }
-    footer.footer_area {
-        background: #1B1B1B;
-        padding: 10px 0;
-    }
-    .form_top {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .form_top p {
-        line-height: 20px;
-        font-size: 12px;
-        margin-top: 12px;
-    }
-    .contact_form {
-        width: 100%;
-    }
-    .contact_form input::placeholder {
-        font-size: 14px;
-    }
-    .contact_form button {
-        padding: 10px;
-    }
-    /* footer area */
 }
 
 
 @media (min-width: 576px) and (max-width:767px) {
-    .nav_area {
-        display: none;
-    }
-
-    .mobile_menu {
-        display: block;
-    }
-
-    section.hero_area {
-        padding: 114px 0px 40px;
-    }
-
-    .hero_left {
-        padding: 0;
-    }
-
-    .hero_left p {
-        padding: 0;
-        font-size: 12px;
-
-    }
-
-    .heading_text {
-        font-size: 22px;
-    }
-
-    .hero_left a {
-        padding: 6px 13px;
-        font-size: 12px;
-    }
-
-    .hero_right .hero_img {
-        height: inherit;
-    }
-
-    .work_top p {
-        padding: 0;
-        font-size: 12px;
-    }
-
-    .work_top h2 {
-        font-size: 30px;
-        color: #080808;
-        font-weight: 800;
-    }
-
-    .work_left h6.com_title {
-        padding: 8px 15px;
-        font-size: 10px;
-    }
-
-    .work_left h3 {
-        font-size: 16px;
-    }
-
-    .work_left p {
-        padding: 10px 0;
-        margin-bottom: 15px;
-        font-size: 12px;
-    }
-
-    .work_left a {
-        padding: 8px 14px;
-        font-size: 12px;
-    }
-
-    .work_right .work_img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .work_right .work_img img {
-        margin-top: 30%;
-    }
-
-    /* testimonial area */
-    .testi_top p {
-        padding: 10px 15px;
-    }
-
-    /* testimonial area */
-
-
-    /* recent work area */
-    .re_slider.owl-carousel .owl-nav.disabled {
-        display: none;
-    }
-    
-    section.recent_work {
-        background: #FFFFFF;
-        padding: 90px 0 20px;
-    }
-    .recent_work_top p {
-        padding: 10px 0;
-    }
-    .recent_work_body {
-        margin-top: 30px;
-    }
-    .re_work_img {
-        width: 100%;
-        height: auto;
-        overflow: hidden;
-    }
-    /* recent work area */
-
-    /* my skill chart area */
-    .skill_chart_top p {
-        padding: 20px 0px;
-        font-size: 12px;
-    }
-    /* my skill chart area */
-
-    /* footer area */
-    .form_top {
-        width: 100%;
-        margin-bottom: 60px;
-    }
-    .contact_form {
-        width: 80%;
-    }
-    /* footer area */
 }
 
 @media (min-width: 768px) and (max-width:992px) {
-    .nav_area {
-        width: 90%;
+    .search {
+        display: flex;
+        align-items: center;
+        height: 100%;
     }
-
-    .hero_left {
-        padding: 30px 0 0;
+    .logo_img {
+        width: 152px;
     }
-
-    .heading_text {
-        font-size: 30px;
-    }
-
-    .hero_left p {
-        padding-right: 0px;
-    }
-
-    .hero_left a {
-        padding: 14px 40px;
+    .hearder_right a {
+        margin-right: 10px;
         font-size: 14px;
     }
-
-    .work_right .work_img {
+    .hero_menu {
+        margin-bottom: 45px;
+    }
+    .hero_menu ul li a {
+        color: #00000091;
+        font-size: 10px;
+    }
+    .hero_left h1 {
+        font-size: 50px;
+    }
+    .hero_left p {
+        color: #000;
+        font-size: 17px;
+        margin-bottom: 70px;
+        line-height: 38px;
+    }
+    .hero_shape {
+        width: 300px;
+        height: 418px;
+        border-radius: 50% 0 50%;
+        border: 2px solid #ddd;
+        position: relative;
+    }
+    .hero_shape .herp_img{
+        width: 300px;
+        height: 418px;
+        border-radius: 50% 0 50%;
+    }
+    .hero_area::before {
+        width: 60px;
+        height: 70px;
+    }
+    .diff_brand_item {
+        width: 150px;
+    }
+    .brand_large_img {
+        height: inherit;
         width: 100%;
     }
-
-    .hero_right .hero_img {
-        height: inherit;
-    }
-
-    .work_top p {
-        padding: 0 70px;
-    }
-
-    .work_right .work_img img {
-        margin-top: 30%;
-    }
-
-    .testi_top p {
-        padding: 20px 70px;
-    }
-
-    /* testimonial area */
-    .testi_body {
-        width: 340px;
-        padding: 20px;
-    }
-
-    .testi_body p {
-        font-size: 12px;
-    }
-
-    .testi_person {
-        margin-top: 17px;
-    }
-
-    .testi_img {
-        width: 55px;
-        height: auto;
-    }
-
-    /* testimonial area */
-
-    /* recent work area */
-    .recent_work_top p {
-        padding: 15px 0;
-    }
-    .recent_work_body {
-        margin-top: 50px;
-    }
-    .re_work_img {
-        width: 326px;
-        height: auto;
-    }
-    .re_work_cont p {
-        padding-right: 30px;
-        font-size: 13px;
-    }
-    .re_slider button.owl-prev {
-        left: -32px;
-    }
-    .re_slider button.owl-next {
-        right: -30px;
-    }
-    /* recent work area */
-
-    /* my skill chart area */
-    .skill_chart_top p {
-        padding: 20px 0px;
-    }
-    .skill_chart_cont .progress-bg {
-        height: 8px;
-    }
-    .skill_chart_cont .progress-fill {
-        height: 8px;
-    }
-    /* my skill chart area */
 }
 
+
 @media (min-width: 993px) {
-    .mt30 {
-        margin-top: 60px;
-    }
-
-    .hero_left p {
-        padding-right: 0px;
-    }
-
-    .work_top p {
-        padding: 0 120px;
-    }
-
-    .testi_top p {
-        padding: 20px 100px;
-    }
-    .recent_work_body {
-        margin-top: 60px;
-        cursor: pointer;
-    }
-    .re_work_img {
-        width: 430px;
-        height: 336px;
-    }
-    .skill_chart_cont .progress-bg {
-        height: 10px;
-    }
-    .skill_chart_cont .progress-fill {
-        height: 10px;
-    }
 }
 
 @media screen and (max-width: 1000px){
-    .re_slider.owl-carousel .owl-nav.disabled {
-        display: none;
-    }
 }
