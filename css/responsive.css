@@ -81,6 +81,39 @@
         opacity: 0;
         transition: all linear 0.3s;
     }
+
+    /* collection */
+    .collectio_body {
+        margin-left: 107px;
+        margin-top: 0px;
+    }
+    .collection_area {
+        padding: 21px 0 45px;
+    }
+    .collection_shadow {
+        width: 328px;
+        top: 1%;
+    }
+    .collectio_body p {
+        font-size: 16px;
+        line-height: 20px;
+        color: #fff;
+        margin-bottom: 40px;
+    }
+    .collection_img {
+        margin-top: 130px;
+        height: 72px;
+        width: 138px;
+        margin-bottom: 15px;
+    }
+    .collectio_body a {
+        padding: 8px 15px;
+        background: #ddd;
+        color: #1E2832;
+        font-size: 14px;
+    }
+
+    /* collection */
 }
 
 
