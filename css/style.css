@@ -172,6 +172,10 @@ a {
     margin-top: 30px;
 }
 
+.mt60 {
+    margin-top: 60px;
+}
+
 /* header area */
 .container {
     max-width: 1300px;
@@ -660,7 +664,7 @@ section.search_by_cat button.owl-next span {
     color: #999999;
     border-radius: 50%;
     transition: all 0.3s;
-
+    margin-right: 10px;
 }
 
 section.search_by_cat button.owl-prev span:hover,
@@ -672,6 +676,7 @@ section.search_by_cat button.owl-next span:hover {
 .buy_get_cards {
     margin-top: 40px;
 }
+
 .card_1_cont {
     padding: 65px 0 0;
 }
@@ -708,3 +713,314 @@ section.search_by_cat button.owl-next span:hover {
 }
 
 /* search by cat area */
+
+/* deal of the week */
+.deal_cards_item {
+    width: 240px;
+    position: relative;
+}
+
+.deal_cards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deal_img {
+    width: 240px;
+    height: 290px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #F7F7F7;
+}
+
+.deal_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.deal_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.deal_rating {
+    display: flex;
+    justify-content: space-around;
+}
+
+.deal_rating img {
+    width: 120px !important;
+}
+
+.deal_product_name h4 {
+    color: #333333;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.deal_product_price span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.deal_product_price del {
+    font-size: 17px;
+    font-weight: 400;
+    color: #BDBDBD;
+    margin-left: 5px;
+}
+
+.deal_btn {
+    margin-top: 15px;
+}
+
+.deal_btn button {
+    background: transparent;
+    padding: 10px 40px;
+    border-radius: 100px;
+    color: #27AE60;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid #BDBDBD;
+    outline: none;
+    transition: all linear 0.3s;
+}
+
+.deal_btn button:hover {
+    background-color: #27AE60;
+    color: #fff;
+    border-color: #27AE60;
+}
+
+.deal_discount {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 68px;
+    height: 26px;
+    background: #333333;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.deal_discount span {
+    font-size: 14px;
+    color: #fff;
+}
+
+.deal_img {
+    position: relative;
+}
+
+.deal_img .deal_overlay_quantity {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000066;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    transition: all linear 0.3s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.deal_overlay_quantity button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: transparent;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.deal_overlay_quantity span {
+    margin: 0 20px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #27AE60;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 50px;
+    text-align: center;
+}
+
+.deal_img:hover .deal_overlay_quantity {
+    visibility: visible;
+    opacity: 1;
+}
+
+.deal_of_week .owl-carousel .owl-nav.disabled {
+    display: block;
+    position: absolute;
+    top: -101px;
+    right: 0;
+}
+
+.deal_of_week .owl-carousel button.owl-prev span {
+    width: 40px;
+    height: 40px;
+    background: #F2F2F2;
+    display: inline-block;
+    text-align: center;
+    line-height: 37px;
+    font-size: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #999999;
+    transition: all 0.3s;
+}
+
+.deal_of_week .owl-carousel button.owl-next span {
+    width: 40px;
+    height: 40px;
+    background: #F2F2F2;
+    display: inline-block;
+    text-align: center;
+    line-height: 37px;
+    font-size: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #999999;
+    transition: all 0.3s;
+}
+
+.deal_of_week .owl-carousel button.owl-prev span:hover,
+.deal_of_week .owl-carousel button.owl-next span:hover {
+    background-color: #27AE60;
+    color: #fff;
+}
+
+/* deal of the week */
+
+/* popular brands */
+.popular_brands_slider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular_brands_slider_item {
+    width: 190px;
+    height: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brands_img {
+    width: 100%;
+    height: 100%;
+}
+
+.brands_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.popular_brands_slider .owl-nav.disabled {
+    display: block;
+}
+
+.popular_brands_slider .owl-nav {
+    position: absolute;
+    top: -80px;
+    right: 0;
+}
+
+.popular_brands_slider button.owl-prev span {
+    width: 40px;
+    height: 40px;
+    background: #F2F2F2;
+    display: inline-block;
+    text-align: center;
+    line-height: 37px;
+    font-size: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #999999;
+    transition: all 0.3s;
+}
+
+.popular_brands_slider button.owl-next span {
+    width: 40px;
+    height: 40px;
+    background: #F2F2F2;
+    display: inline-block;
+    text-align: center;
+    line-height: 37px;
+    font-size: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #999999;
+    transition: all 0.3s;
+}
+
+.popular_brands_slider button.owl-prev span:hover,
+.popular_brands_slider button.owl-next span:hover {
+    background-color: #27AE60;
+    color: #fff;
+}
+
+.brands_card {
+    background: #FFF0DC;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.b_card_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.b_img {
+    width: 196px;
+    height: 200px;
+}
+
+.b_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.b_card_left {
+    margin-left: 25px;
+}
+.b_card_left h4 {
+    font-size: 24px;
+    line-height: 35px;
+    margin-top: 30px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+.b_card_left a{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b_card_left a svg{
+    color: #FF5C00;
+}
+/* popular brands */
