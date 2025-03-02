@@ -1006,6 +1006,8 @@
     </footer>
     <!-- footer -->
 
+    <button id="backToTop">&#8679;</button>
+
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/jquery.waypoints.js"></script>
     <script src="js/owl.carousel.min.js"></script>
@@ -1016,10 +1018,22 @@
     <script src="js/animated-counter-prograssbar.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
 
-    <script src="js/custom.js">
-    </script>
+    <script src="js/custom.js"></script>
+    
     <script>
+        const backToTop = document.getElementById("backToTop");
 
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 300) {
+                backToTop.style.display = "block";
+            } else {
+                backToTop.style.display = "none";
+            }
+        });
+
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
     </script>
 </body>
 
