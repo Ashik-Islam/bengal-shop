@@ -4,74 +4,130 @@
 // Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 320px) and (max-width:575px) {
-    header{
+    header {
         display: none;
     }
+
     .hero_section .owl-dots {
         display: none;
     }
+
     .hero_section {
         padding-top: 30px;
     }
+
     .hero_left {
         padding-top: 0px;
     }
+
     .hero_left h4 {
         font-size: 11px;
         line-height: 30px;
     }
+
     .hero_left h1 {
         font-size: 12px;
         line-height: 20px;
         margin: 5px 0;
     }
+
     .hero_left p {
         font-size: 5px;
         margin-bottom: 8px;
         line-height: 10px;
     }
+
     .hero_left a {
         font-size: 9px;
         padding: 3px 14px;
         border-radius: 100px;
     }
+
     .cat_head h3 {
         padding-bottom: 0px;
         font-size: 12px;
         line-height: 42px;
     }
+
     section.search_by_cat button.owl-prev span {
         width: 30px;
         height: 30px;
         line-height: 30px;
         font-size: 30px;
     }
+
     section.search_by_cat button.owl-next span {
         width: 30px;
         height: 30px;
         line-height: 30px;
         font-size: 30px;
     }
+
     section.search_by_cat .owl-nav {
         position: absolute;
         top: -65px;
         right: 0;
         display: none;
     }
+
     .search_cat_slider a {
-        width: 140px;
+        width: 96%;
         height: 169px;
     }
+
     .s_cat_item_name span {
         font-weight: 500;
         color: #333333;
         font-size: 16px;
     }
+
     section.search_by_cat {
         margin-top: 30px;
     }
+
     .s_cat_item_name {
         margin-top: 0px;
+    }
+
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 93%;
+    }
+
+    .buy_get_cards {
+        margin-top: 18px;
+    }
+
+    .card_1 {
+        padding: 6px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .card_1_cont h5 {
+        font-weight: 500;
+        font-size: 16px;
+        color: #FF5C00;
+    }
+
+    .card_1_cont h2 {
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 24px;
+        color: #333333;
+        padding-bottom: 22px;
+    }
+
+    .card_1_cont a {
+        background: #fff;
+        color: #FF5C00;
+        padding: 4px 6px;
+        border-radius: 100px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .card_1_cont {
+        padding: 10px 0 10px 3px;
     }
 
 
@@ -142,73 +198,92 @@
 
 @media (min-width: 993px) and (max-width:1199px) {}
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     .container {
         max-width: 1100px;
     }
+
     .container-fluid {
         max-width: 1180px;
     }
+
     .hero_img {
         width: 470px;
     }
+
     .hero_left h1 {
         font-size: 52px;
     }
+
     .hero_left h1 {
         line-height: 79px;
     }
+
     .hero_left p {
         font-size: 20px;
         margin-bottom: 35px;
     }
+
     .hero_left {
         padding-top: 90px;
     }
+
     .cat_area {
         padding: 4px 15px;
     }
+
     .special_offer a {
         font-size: 19px;
     }
+
     .search_cat_slider a {
         width: 160px;
     }
+
     .card_1 {
         padding: 30px;
     }
+
     .deal_cards_item {
         width: 200px;
     }
+
     .deal_img {
         width: 200px;
     }
+
     .brands_img img {
         width: 85% !important;
     }
+
     .popular_brands_slider_item {
         width: 160px;
     }
+
     .brands_card {
         padding: 3px;
     }
+
     .b_card_left h4 {
         margin-bottom: 28px;
         margin-top: 40px;
     }
+
     .support_img {
         width: 70px;
         height: 75px;
     }
+
     .support_cont h5 {
         font-size: 15px;
         line-height: 16px;
     }
+
     .support_cont p {
         font-size: 13px;
     }
+
     .f_payment ul li a {
         width: 53px;
     }
 }
-
