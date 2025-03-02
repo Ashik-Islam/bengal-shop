@@ -10,18 +10,39 @@ $(document).ready(function(){
         autoplay:true,
         loop:true,
         dots:true,
+        responsiveClass:true,
+        responsive : {
+          // breakpoint from 0 up
+          0 : {
+            dots:false
+          },
+          575: {
+
+          }
+      }
     });
   });
 
 //   search by cat slider
 $(document).ready(function(){
     $(".search_cat_slider").owlCarousel({
-        items:6,
         autoplay:true,
         loop:true,
         nav:true,
         margin:5,
-        rtl:true
+        rtl:true,
+        responsiveClass:true,
+        responsive : {
+          // breakpoint from 0 up
+          0 : {
+            dots:false,
+            items:2,
+            nav:false
+          },
+          575: {
+            items:2
+          }
+      }
     });
   });
 //   search by cat slider
