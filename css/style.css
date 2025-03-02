@@ -198,17 +198,17 @@ a {
 }
 
 .serch_icon {
-    width: 5%;
+    width: 6%;
     display: flex;
     justify-content: flex-end;
 }
 
 .serch_input {
-    width: 80%;
+    width: 74%;
 }
 
 .serch_btn {
-    width: 15%;
+    width: 20%;
 }
 
 .serch_input input {
@@ -226,6 +226,7 @@ a {
     padding: 5px;
     width: 100%;
     border-radius: 40px;
+    font-size: 15px;
 }
 
 .logo_area {
