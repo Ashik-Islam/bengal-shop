@@ -216,6 +216,11 @@ a {
 }
 
 .serch_input input:focus {
+    color: #BDBDBD;
+    font-weight: 400;
+    font-size: 16px;
+}
+.serch_input input::placeholder {
     box-shadow: none;
 }
 
@@ -226,7 +231,7 @@ a {
     padding: 5px;
     width: 100%;
     border-radius: 40px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .logo_area {
