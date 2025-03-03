@@ -1219,3 +1219,17 @@ body {
 #backToTop:hover {
     background: #27AE60;
 }
+
+.sticky {
+    transition: ease .3s;
+  }
+  
+  .sticky-pin {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    padding: 20px 0;
+    z-index: 99999;
+    box-shadow: 0 0 5px 1px #000000be;
+}
