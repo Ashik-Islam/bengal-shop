@@ -11,15 +11,6 @@ $(document).ready(function(){
         loop:true,
         dots:true,
         responsiveClass:true,
-        responsive : {
-          // breakpoint from 0 up
-          0 : {
-            dots:false
-          },
-          575: {
-
-          }
-      }
     });
   });
 
@@ -28,7 +19,6 @@ $(document).ready(function(){
     $(".search_cat_slider").owlCarousel({
         autoplay:true,
         loop:true,
-        nav:true,
         margin:5,
         rtl:true,
         responsiveClass:true,
@@ -39,8 +29,10 @@ $(document).ready(function(){
             items:2,
             nav:false
           },
-          575: {
-            items:2
+          600 : {
+            dots:false,
+            items:2,
+            nav:false
           },
           1000 : {
             items:6,
@@ -53,10 +45,25 @@ $(document).ready(function(){
 //   deal of the week slider
 $(document).ready(function(){
     $(".deal_cards").owlCarousel({
-        items:5,
         autoplay:true,
         loop:true,
-        nav:true,
+        responsiveClass:true,
+        responsive : {
+          // breakpoint from 0 up
+          0 : {
+            dots:false,
+            items:2,
+            nav:false
+          },
+          600 : {
+            dots:false,
+            items:2,
+            nav:false
+          },
+          1000 : {
+            items:5,
+          }
+      }
     });
   });
 //   deal of the week slider
@@ -69,7 +76,24 @@ $(document).ready(function(){
         loop:true,
         nav:true,
         margin:10,
-        rtl:true
+        rtl:true,
+        responsiveClass:true,
+        responsive : {
+          // breakpoint from 0 up
+          0 : {
+            dots:false,
+            items:2,
+            nav:false
+          },
+          600 : {
+            dots:false,
+            items:2,
+            nav:false
+          },
+          1000 : {
+            items:6,
+          }
+      }
 
     });
   });
