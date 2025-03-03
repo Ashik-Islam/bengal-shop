@@ -391,6 +391,9 @@ li.active_menu a {
     display: none;
     z-index: 9999;
 }
+.mega_menu ul {
+    background: #27AE60;
+}
 
 .mega_menu span {
     font-size: 18px;
@@ -413,7 +416,7 @@ li.active_menu a {
 }
 
 .mega_menu ul li:hover {
-    background-color: #ddd;
+    background-color:  rgba(255, 255, 255, .1);;
 }
 
 .mega_menu ul li a {
@@ -422,7 +425,15 @@ li.active_menu a {
     justify-content: space-between;
     height: 100%;
 }
-
+.cat_item_img {
+    color: #fff;
+}
+li.child_menu a {
+    color: #fff;
+}
+li.mega_menu_item a svg {
+    color: #fff;
+}
 .cat_item_img img {
     width: 40px;
     height: 40px;
