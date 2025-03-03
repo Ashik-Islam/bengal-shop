@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/animated-counter-prograssbar.css">
+    <link rel="stylesheet" href="css/meanmenu.min.css">
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -308,6 +309,69 @@
             </div>
         </div>
     </header>
+
+    <!-- mobile header -->
+    <section class="mobile_header">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="m_logo">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="m_menu">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <div class="cat_item_img">
+                                            <img src="images/s_cat_1.png" alt="">
+                                            <span>Groceries Item</span>
+                                        </div>
+                                    </a>
+                                    <ul>
+                                        <li><a href="">top1</a></li>
+                                        <li><a href="">top1</a></li>
+                                        <li><a href="">top1</a></li>
+                                        <li><a href="">top1</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="cat_item_img">
+                                            <img src="images/s_cat_2.png" alt="">
+                                            <span>Groceries Item</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="cat_item_img">
+                                            <img src="images/s_cat_3.png" alt="">
+                                            <span>Groceries Item</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="cat_item_img">
+                                            <img src="images/s_cat_4.png" alt="">
+                                            <span>Groceries Item</span>
+                                        </div>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- mobile header -->
 
     <!-- hero area -->
     <div class="container-fluid hero_section mt30">
@@ -1030,7 +1094,7 @@
                         </ul>
                     </div>
                 </div>
-                
+
                 <div class="col-12 col-sm-12 col-md-3 col-lg-3">
                     <div class="f_payment">
                         <ul>
@@ -1078,11 +1142,12 @@
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
     <script src="js/animated-counter-prograssbar.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
 
     <script src="js/custom.js"></script>
-    
+
     <script>
         const backToTop = document.getElementById("backToTop");
 
@@ -1095,7 +1160,10 @@
         });
 
         backToTop.addEventListener("click", () => {
-            window.scrollTo({ top: 0, behavior: "smooth" });
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
         });
     </script>
 </body>
