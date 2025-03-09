@@ -111,3 +111,14 @@ jQuery(document).ready(function () {
   });
 });
 // mean menu
+
+
+$(".cards_inner").on("click", function() {
+  // Remove the toggle class from all elements
+  $(".cards_inner .card_details").removeClass("overlay_visible");
+  $(".cards_inner .card_overlay").removeClass("overlay_visible");
+  
+  // Add the toggle class to the clicked element's children
+  $(this).find(".card_details").toggleClass("overlay_visible");
+  $(this).find(".card_overlay").toggleClass("overlay_visible");
+});
