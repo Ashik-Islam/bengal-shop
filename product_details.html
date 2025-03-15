@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/animated-counter-prograssbar.css">
     <link rel="stylesheet" href="css/meanmenu.min.css">
+    <link rel="stylesheet" href="css/lightslider.min.css">
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -372,10 +373,298 @@
         </div>
     </section>
     <!-- mobile header -->
-     
-    
-    
-    
+
+
+
+    <!-- product details -->
+
+    <section class="pro_details mt30">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="pro_slider">
+                        <ul id="imageGallery">
+                            <li data-thumb="images/pro_slider_1.png" data-src="images/pro_slider_1.png">
+                                <img src="images/pro_slider_1.png" />
+                            </li>
+                            <li data-thumb="images/pro_slider_1.png" data-src="images/pro_slider_1.png">
+                                <img src="images/pro_slider_1.png" />
+                            </li>
+                            <li data-thumb="images/brands_card_img-3.png" data-src="images/brands_card_img-3.png">
+                                <img src="images/brands_card_img-3.png" />
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="d_view_all">
+                        <a href=""><i class="fa-regular fa-eye"></i>View more details</a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="pro_status">
+                        <ul>
+                            <li>Status</li>
+                            <li>In Stock</li>
+                        </ul>
+                    </div>
+                    <div class="pro_name">
+                        <h4>Product full name here</h4>
+                    </div>
+                    <div class="pro_rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <div class="rating_count">
+                            <p><span>10</span>reviews</p>
+                        </div>
+                    </div>
+                    <div class="pro_amount">
+                        <ul>
+                            <li>
+                                <span>$59.00</span>
+                            </li>
+                            <li>
+                                <del>$59.00</del>
+                            </li>
+                            <li>
+                                <p>(+15% Vat Included)</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sale_count">
+                        <p><span>20</span> Products sold in last 12 hours</p>
+                    </div>
+                    <div class="pro_buy_quant">
+                        <div class="pro_main_quant">
+                            <div class="quant">
+                                <span>Quantity</span>
+                            </div>
+                            <div class="quant_item">
+                                <form action="" method="post">
+                                    <button type="button">-</button>
+                                    <input type="text" name="" id="" value="1" disabled>
+                                    <button type="button">+</button>
+                                </form>
+                            </div>
+                            <div class="quant_left">
+                                <span>Only !0 Item Left!</span>
+                            </div>
+                        </div>
+                        <div class="pro_btn">
+                            <button type="button">Add to Cart</button>
+                            <button type="button">Buy Now</button>
+                        </div>
+                        <div class="wish_share">
+                            <ul>
+                                <li>
+                                    <a href=""><i class="fa-regular fa-heart"></i>Add to Wishlist</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i>Add to Wishlist</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-share-nodes"></i>Share</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product_details">
+                        <ul>
+                            <li>Sku</li>
+                            <li>KE-008819</li>
+                            <li>category</li>
+                            <li>Food</li>
+                            <li>tags</li>
+                            <li>Food, Fruits, Vegetables</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product details -->
+
+
+       <!-- deals of the week -->
+       <section class="deal_of_week mt60">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="deal_common_heading">
+                        <!-- common heading -->
+                        <div class="cat_head">
+                            <h3>Related Products</h3>
+                        </div>
+                        <!-- common heading -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- deal of the week card -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="deal_cards owl-carousel">
+
+                        <div class="deal_cards_item">
+                            <div class="deal_img">
+                                <img src="images/deal_img1.png" alt="">
+                                <div class="deal_overlay_quantity">
+                                    <button onclick="deal_decrease()">-</button>
+                                    <span id="deal_value">1</span>
+                                    <button onclick="deal_increase()">+</button>
+                                </div>
+                            </div>
+                            <div class="deal_cont">
+                                <div class="deal_rating">
+                                    <img src="images/rating_star.png" alt="">
+                                    <span>(12)</span>
+                                </div>
+                                <div class="deal_product_name">
+                                    <h4>Product Name</h4>
+                                </div>
+                                <div class="deal_product_price">
+                                    <span>$200.00</span>
+                                    <del>$300.00</del>
+                                </div>
+                                <div class="deal_btn">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                            <div class="deal_discount">
+                                <span>-30%</span>
+                            </div>
+                        </div>
+                        <div class="deal_cards_item">
+                            <div class="deal_img">
+                                <img src="images/deal_img2.png" alt="">
+                                <div class="deal_overlay_quantity">
+                                    <button>-</button>
+                                    <span>1</span>
+                                    <button>+</button>
+                                </div>
+                            </div>
+                            <div class="deal_cont">
+                                <div class="deal_rating">
+                                    <img src="images/rating_star.png" alt="">
+                                    <span>(12)</span>
+                                </div>
+                                <div class="deal_product_name">
+                                    <h4>Product Name</h4>
+                                </div>
+                                <div class="deal_product_price">
+                                    <span>$200.00</span>
+                                    <del>$300.00</del>
+                                </div>
+                                <div class="deal_btn">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                            <div class="deal_discount">
+                                <span>-30%</span>
+                            </div>
+                        </div>
+                        <div class="deal_cards_item">
+                            <div class="deal_img">
+                                <img src="images/deal_img5.png" alt="">
+                                <div class="deal_overlay_quantity">
+                                    <button>-</button>
+                                    <span>1</span>
+                                    <button>+</button>
+                                </div>
+                            </div>
+                            <div class="deal_cont">
+                                <div class="deal_rating">
+                                    <img src="images/rating_star.png" alt="">
+                                    <span>(12)</span>
+                                </div>
+                                <div class="deal_product_name">
+                                    <h4>Product Name</h4>
+                                </div>
+                                <div class="deal_product_price">
+                                    <span>$200.00</span>
+                                    <del>$300.00</del>
+                                </div>
+                                <div class="deal_btn">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                            <div class="deal_discount">
+                                <span>-30%</span>
+                            </div>
+                        </div>
+                        <div class="deal_cards_item">
+                            <div class="deal_img">
+                                <img src="images/deal_img3.png" alt="">
+                                <div class="deal_overlay_quantity">
+                                    <button>-</button>
+                                    <span>1</span>
+                                    <button>+</button>
+                                </div>
+                            </div>
+                            <div class="deal_cont">
+                                <div class="deal_rating">
+                                    <img src="images/rating_star.png" alt="">
+                                    <span>(12)</span>
+                                </div>
+                                <div class="deal_product_name">
+                                    <h4>Product Name</h4>
+                                </div>
+                                <div class="deal_product_price">
+                                    <span>$200.00</span>
+                                    <del>$300.00</del>
+                                </div>
+                                <div class="deal_btn">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                            <div class="deal_discount">
+                                <span>-30%</span>
+                            </div>
+                        </div>
+                        <div class="deal_cards_item">
+                            <div class="deal_img">
+                                <img src="images/deal_img4.png" alt="">
+                                <div class="deal_overlay_quantity">
+                                    <button>-</button>
+                                    <span>1</span>
+                                    <button>+</button>
+                                </div>
+                            </div>
+                            <div class="deal_cont">
+                                <div class="deal_rating">
+                                    <img src="images/rating_star.png" alt="">
+                                    <span>(12)</span>
+                                </div>
+                                <div class="deal_product_name">
+                                    <h4>Product Name</h4>
+                                </div>
+                                <div class="deal_product_price">
+                                    <span>$200.00</span>
+                                    <del>$300.00</del>
+                                </div>
+                                <div class="deal_btn">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                            <div class="deal_discount">
+                                <span>-30%</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- deal of the week card -->
+
+        </div>
+    </section>
+    <!-- deals of the week -->
+
+
+
+
     <!-- customer care -->
     <section class="customer_carem mt60">
         <div class="container">
@@ -666,6 +955,7 @@
     <script src="js/jquery.meanmenu.min.js"></script>
     <script src="js/animated-counter-prograssbar.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/lightslider.min.js"></script>
 
     <script src="js/custom.js"></script>
 

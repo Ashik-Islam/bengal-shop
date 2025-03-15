@@ -122,3 +122,22 @@ $(".cards_inner").on("click", function() {
   $(this).find(".card_details").toggleClass("overlay_visible");
   $(this).find(".card_overlay").toggleClass("overlay_visible");
 });
+
+
+
+$(document).ready(function() {
+  $('#imageGallery').lightSlider({
+      gallery:true,
+      item:1,
+      loop:true,
+      thumbItem:9,
+      slideMargin:0,
+      enableDrag: false,
+      currentPagerPosition:'left',
+      onSliderLoad: function(el) {
+          el.lightGallery({
+              selector: '#imageGallery .lslide'
+          });
+      }   
+  });  
+});
