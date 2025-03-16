@@ -1713,13 +1713,59 @@ body {
 
 }
 .wish_share {
-    margin: 35px 0;
+    margin: 30px 0;
+    border-bottom: 1px solid #ddd;
 }
-
-
-
-
-
+.sale_count {
+    border-bottom: 1px solid #ddd;
+}
+.side_nav .sidebar {
+    position: static;
+}
+.side_nav .sidebar {
+    width: 100%;
+    background-color: transparent;
+}
+.side_nav .accordion-body {
+    padding: 0;
+}
+.side_nav .accordion-button:not(.collapsed) {
+    background-color: #EBFAEB;
+}
+.side_nav .accordion-button {
+    box-shadow: none;
+}
+.side_nav h2 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 35px;
+}
+.side_nav .sidebar-menu {
+    height: inherit;
+}
+.side_nav .sidebar-menu li.dropdown.open>a {
+    color: #000;
+}
+.side_nav li.nav-item.dropdown a {
+    color: #000;
+}
+.side_nav .sidebar-menu>li.dropdown ul.dropdown-menu>li>a:focus, .sidebar-menu>li.dropdown ul.dropdown-menu>li>a:hover {
+    background-color: rgba(0,0,0,0);
+    color: #000 !important;
+}
+.side_nav .sidebar-menu li a:focus, .sidebar-menu li a:hover {
+    color: #fff !important;
+    background-color: #219653;
+}
+.side_nav div#accordionExample {
+    margin-bottom: 20px;
+}
+.range_body {
+    padding: 5px 10px;
+}
+.side_nav .sidebar-menu li.dropdown.open>a .icon-holder {
+    color: #000;
+}
 
 
 
