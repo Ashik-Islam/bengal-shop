@@ -1309,13 +1309,19 @@ footer.mt60 {
 .filter_right ul {
     display: flex;
     justify-content: space-between;
-    width: 45%;
+    width: 60%;
     align-items: center;
 }
 
 .filter_right ul li a {
     font-size: 15px;
     color: #666666;
+}
+.sorting_form .form-group {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 100%;
 }
 
 

@@ -277,7 +277,36 @@
         color: #333333;
         line-height: 0;
     }
-
+    .banner {
+        padding: 35px;
+    }
+    .banner h1 {
+        font-size: 18px;
+        line-height: 30px;
+        display: inline-block;
+        padding: 0;
+    }
+    .banner h5 {
+        font-size: 15px;
+        line-height: 7px;
+    }
+    .filter_right {
+        align-items: center;
+        justify-content: space-between;
+    }
+    .filter_right ul {
+        width: 55%;
+        gap: 10px;
+    }
+    .sorting_form .form-group {
+        height: 100%;
+    }
+    .sorting_form select.form-group option {
+        font-size: 14px;
+    }
+    .cat_price span {
+        margin-right: 5px;
+    }
 
 
 
