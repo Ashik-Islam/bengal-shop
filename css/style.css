@@ -1768,8 +1768,22 @@ body {
 }
 
 
+.page ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page ul li {
+    margin-right: 5px;
+}
+.page ul li a,.page ul li {
+    color: #828282;
+    font-weight: 500;
+}
 
-
+.page ul li:last-child,.page ul li:nth-child(2){
+    color: #0D0D0D;
+}
 
 
 
