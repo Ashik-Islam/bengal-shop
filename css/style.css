@@ -67,6 +67,7 @@ body {
     position: relative;
     font-weight: 300;
     color: #000;
+    position: relative;
 }
 
 span,
@@ -1791,6 +1792,12 @@ body {
     color: #0D0D0D;
 }
 
+
+/* mobile bottom footer */
+section.mb_bottom_area {
+    display: none;
+}
+/* mobile bottom footer */
 
 
 

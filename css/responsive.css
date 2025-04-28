@@ -307,6 +307,57 @@
     .cat_price span {
         margin-right: 5px;
     }
+    section.mb_bottom_area {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 99999;
+        width: 100%;
+        padding: 5px 0px;
+        background: #27ae60;
+        border-radius: 10px 10px 0 0;
+    }
+    .mb_bottom {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        padding: 5px 0px;
+    }
+    .bm_bttm_item a {
+        color: #ffffffe1;
+    }
+    .bm_bttm_item a svg {
+        font-size: 22px;
+    }
+    #backToTop {
+        bottom: 47px;
+    }
+    .bm_bttm_item.mb_chart {
+        position: relative;
+    }
+    .bm_bttm_item.mb_chart .chart_count {
+        position: absolute;
+        top: -6px;
+        right: -16px;
+        width: 18px;
+        height: 18px;
+        background: red;
+        border-radius: 50%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .chart_count span {
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        line-height: 17px;
+        font-weight: 500;
+    }
+}
 
 
 
