@@ -506,6 +506,7 @@ li.child_menu:hover ul.child_menu_item {
 .hero_right {
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 .hero_img {
